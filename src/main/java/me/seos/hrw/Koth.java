@@ -46,7 +46,7 @@ public class Koth implements CommandExecutor {
                 sender.sendMessage(ChatColor.GREEN + "Start Koth Event || /koth start");
                 sender.sendMessage(ChatColor.GREEN + "End Koth Event   || /koth end");
                 sender.sendMessage(ChatColor.GREEN + "Set Rewards      || /koth rewards");
-                sender.sendMessage(ChatColor.GREEN + "Display Top 10   || /koth board");
+                sender.sendMessage(ChatColor.GREEN + "Display Top 10   || /koth show");
 
             } else if (args.length == 1) {
                 if (args[0].equalsIgnoreCase("start")) {
